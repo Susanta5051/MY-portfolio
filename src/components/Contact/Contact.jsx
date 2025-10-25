@@ -4,9 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 
-const SERVICE_KEY = import.meta.env.VITE_SERVICE_KEY;
-const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
-const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
+
 
 
 
@@ -21,11 +19,11 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        SERVICE_KEY,  // Replace with your EmailJS Service ID
-        TEMPLATE_ID,  // Replace with your EmailJS Template ID
+        import.meta.env.VITE_SERVICE_KEY,  // Replace with your EmailJS Service ID
+        import.meta.env.VITE_TEMPLATE_ID,  // Replace with your EmailJS Template ID
         form.current,
          {
-        publicKey: PUBLIC_KEY,
+        publicKey: import.meta.env.VITE_PUBLIC_KEY,
       }  // Replace with your EmailJS Public Key
       )
       .then(
