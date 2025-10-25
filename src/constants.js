@@ -82,7 +82,7 @@ export const SkillsInfo = [
       school: "Indira Gandhi Institute of Technology,Sarang",
       date: "Sept 2024 - Present",
       grade: "8.72 CGPA",
-      desc: "I am  currently persuing my Master's degree (MCA) in Computer Applications from Indira Gandhi Institute of Technology,Sarang. ",
+      desc: "I am  currently persuing my Master's degree (MCA) in Computer Applications from Indira Gandhi Institute of Technology,Sarang. In this program I introduced myself to computer science. I learned about various programming languages ,new tecnologies, and many technial skills  ",
       degree: "Master of Computer Applications - MCA",
     },
     {
@@ -91,7 +91,7 @@ export const SkillsInfo = [
       school: "Pattamundai College,Pattamundai",
       date: "Sept 2021 - May 2024",
       grade: "8.04 CGPA",
-      desc: "I completed my Bachelor's degree in Physics (B.Sc.) from Pattamundai College,Pattamundai. ",
+      desc: "I have completed my graduation from Pattamundai College,Pattamundai with Bsc(Physics). During this course I have learned various soft skills like leadership, management etc.",
       degree: "Bachelor of Science - BSC (Physics)",
     },
     
