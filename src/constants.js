@@ -26,7 +26,7 @@ import pmiLogo from './assets/education_logo/pmi_logo.png';
 import igitLogo from './assets/education_logo/igit_logo.png';
 
 // Project Section Logo's
-import airbnb_Logo from './assets/work_logo/airbnb_Logo.png';
+import airbnb_Logo from './assets/work_logo/airbnb_logo.png';
 
 
 
