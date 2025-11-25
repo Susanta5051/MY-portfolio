@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.jpg';
 
+
 const About = () => {
   return (
     <section
@@ -52,7 +53,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1NZ8zwHaf3_LXF2swC7goPkyyJUyXVBqA/view?usp=drive_link"
+            href="https://drive.google.com/file/d/13gIHVdPuZrebn76Ja0YJfeusif9qUCR3/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -68,7 +69,7 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end ">
           <Tilt
-            className="w-50 h-50 sm:w-50 sm:h-50 md:w-[20rem] md:h-[20rem] border-4 border-purple-700 rounded-full"
+            className="w-50 h-50 sm:w-50 sm:h-50 md:w-[20rem] md:h-80 border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}

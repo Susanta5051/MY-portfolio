@@ -17,6 +17,7 @@ import javaLogo from './assets/tech_logo/java.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
+import logo from'./assets/work_logo/logo.png'
 
 
 // Experience Section Logo's
@@ -108,5 +109,15 @@ export const SkillsInfo = [
        tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
        github: "https://github.com/Susanta5051/AIR_BNB_CLONE",
        webapp: "https://air-bnb-clone-1-nhyv.onrender.com/lists",
+     },
+     {
+       id: 1,
+       title: "BastraCollections",
+       description:
+         "Constructed a modern e-commerce solution using MERN technologies that is secured with JSON Web Tokens  for user authentication. The responsive interface was built with React.js and styled entirely using Tailwind CSS. Axios was employed for efficient API interactions, successfully deploying the final product on Vercel",
+      image: logo,
+       tags: ["React.js","Express.js", "JavaScript", "Node.js", "MongoDB"],
+       github: "https://github.com/Susanta5051/Project2/tree/main/E-Commerce-App",
+       webapp: "https://bastracollections-jmyb.vercel.app/",
      },
    ];  
