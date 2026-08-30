@@ -113,7 +113,7 @@ export const SkillsInfo = [
       school: "Indira Gandhi Institute of Technology,Sarang",
       date: "Sept 2024 - JUN 2026",
       grade: "8.79 CGPA",
-      desc: "I am  currently persuing my Master's degree (MCA) in Computer Applications from Indira Gandhi Institute of Technology,Sarang. In this program I introduced myself to computer science. I learned about various programming languages ,new tecnologies, and many technial skills  ",
+      desc: "I have recently completed my Master's degree (MCA) in Computer Applications from Indira Gandhi Institute of Technology,Sarang. In this program I introduced myself to computer science. I learned about various programming languages ,new tecnologies, and many technial skills  ",
       degree: "Master of Computer Applications - MCA",
     },
     {
