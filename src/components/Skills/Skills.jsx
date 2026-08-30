@@ -39,7 +39,7 @@ const Skills = () => (
             transitionSpeed={1000}
             gyroscope={true}
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+            <div className="flex flex-wrap  gap-3 w-full">
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}
