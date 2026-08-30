@@ -2,6 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.jpg';
+const cv = import.meta.env.VITE_CV_LINK || "https://drive.google.com/file/d/1PFmWDBMqNpysxtl1D8SnvTSxAbxrTbt6/view?usp=drive_link";
 
 
 const About = () => {
@@ -53,7 +54,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1PFmWDBMqNpysxtl1D8SnvTSxAbxrTbt6/view?usp=drive_link"
+            href={cv}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
