@@ -44,7 +44,7 @@ import airbnb_Logo from './assets/work_logo/airbnb_logo.png';
 import bastra_Logo from './assets/work_logo/logo.png';
 import foodapp_Logo from './assets/work_logo/foodapp.jpeg'
 import connectify_Logo from './assets/work_logo/connectify.jpeg'
-import interviewMock_Logo from './assets/work_logo/inteviewMock.jpg'
+import interviewMock_Logo from './assets/work_logo/interviewMock.jpg'
 
 
 
