@@ -44,6 +44,7 @@ import airbnb_Logo from './assets/work_logo/airbnb_logo.png';
 import bastra_Logo from './assets/work_logo/logo.png';
 import foodapp_Logo from './assets/work_logo/foodapp.jpeg'
 import connectify_Logo from './assets/work_logo/connectify.jpeg'
+import interviewMock_Logo from './assets/work_logo/inteviewMock.jpg'
 
 
 
@@ -169,5 +170,15 @@ export const SkillsInfo = [
       tags: ["React.js","Express.js", "TypeScript", "Node.js", "MongoDB","cloudinary","multer","axios","material-ui","jsonwebtoken","shadcn-ui","lucide-react","socket-io"],
       github: "https://github.com/Susanta5051/connectify",
       webapp: "https://connectify-one-theta.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "InterviewMock",
+      description:
+        "Constructed an interview preparation application using MERN technologies that integrates the Google Gemini API for real-time conversational simulation. The responsive user interface was built reactmarkdown and react-syntax-highlighter, animation handled by framer-motion.",
+      image: interviewMock_Logo,
+      tags: ["React.js","Express.js", "TypeScript", "Node.js", "MongoDB","cloudinary","multer","axios","framer-motion","react-maarkdown","Google Gemini API"],
+      github: "https://github.com/Susanta5051/interviewmock",
+      webapp: "https://interviewmock-seven.vercel.app",
     },
    ];  
