@@ -148,8 +148,8 @@ export const SkillsInfo = [
          "Constructed a modern e-commerce solution using MERN technologies that is secured with JSON Web Tokens  for user authentication. The responsive interface was built with React.js and styled entirely using Tailwind CSS. Axios was employed for efficient API interactions, successfully deploying the final product on Vercel",
       image: bastra_Logo,
        tags: ["React.js","Express.js", "JavaScript", "Node.js", "MongoDB","cloudinary","multer","axios","material-ui","jsonwebtoken"],
-       github: "https://github.com/Susanta5051/bastracollectionsweb",
-       webapp: "https://bastracollectionsclient-um5z.vercel.app/",
+       github: "https://github.com/Susanta5051/BastraCollections",
+       webapp: "https://bastra-collections-two.vercel.app",
      },
      {
       id: 2,
