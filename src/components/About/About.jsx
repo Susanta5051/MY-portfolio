@@ -1,7 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.jpg';
+import profileImage from '../../assets/profile2.jpg';; 
 const cv = import.meta.env.VITE_CV_LINK || "https://drive.google.com/file/d/1PFmWDBMqNpysxtl1D8SnvTSxAbxrTbt6/view?usp=drive_link";
 
 
@@ -12,17 +12,13 @@ const About = () => {
       className=" px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-5 md:mt-5 lg:mt-5"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-        {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
-          {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Susanta Das 
           </h2>
-          {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             
@@ -30,21 +26,19 @@ const About = () => {
           <TypeAnimation
             sequence={[
               'Fullstack Developer',
-              2000, // Wait 2s
+              2000, 
               'MERN Developer',
-               // Wait 2s
-              2000, // Wait 2s
+              2000, 
               'Coder',
-              2000, // Wait 2s
+              2000, 
             ]}
             wrapper="span"
-            speed={50} // A bit different speed logic
+            speed={50} 
             cursor={true}
             repeat={Infinity}
-            style={{ color: '#8245ec' }} // The typing text itself is purple
+            style={{ color: '#8245ec' }} 
           />
           </h3>
-          {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             I am a full-stack web developer  in building
              scalable web applications. Skilled in both front-end and
@@ -52,7 +46,6 @@ const About = () => {
             modern technologies to create seamless user experiences and
             efficient solutions.
           </p>
-          {/* Resume Button */}
           <a
             href={cv}
             target="_blank"
@@ -67,7 +60,6 @@ const About = () => {
           </a>
           
         </div>
-        {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end ">
           <Tilt
             className="w-50 h-50 sm:w-50 sm:h-50 md:w-[20rem] md:h-80 border-4 border-purple-700 rounded-full"
@@ -76,7 +68,7 @@ const About = () => {
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}
-            gyroscope={true}
+            // gyroscope={true}
           >
             <img
               src={profileImage}
